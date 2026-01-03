@@ -21,7 +21,7 @@ This repository contains a fully reproducible statistical analysis using simulat
   - MOHD FAUZIE BIN ISMAIL
   - AHMAD SHAHRIL HAFIFI BIN SAAD
 
-## Research Objectives
+## Project Objectives
 The objectives of this project are to:
 1. Simulate realistic public health datasets suitable for regression analysis.
 2. Conduct exploratory data analysis (EDA).
@@ -29,6 +29,34 @@ The objectives of this project are to:
 4. Examine interaction effects.
 5. Perform model diagnostics and assumption checking.
 6. Ensure full analytical reproducibility.
+
+---
+## Repository Structure
+
+The repository is organised into **two self-contained analysis folders**, allowing each analysis to be run independently.
+
+```
+├── multiple_linear/
+│   ├── linear.qmd                      # Quarto analysis document
+│   ├── linear.html                     # Rendered HTML report
+│   ├── references.bib                   # Bibliography file
+│   ├── styles.css                       # HTML styling file
+│   ├── generate_data/                   # Data generation subfolder
+│   │   ├── linear_generatedata.R        # R script for data simulation
+│   │   └── qol_data.csv                 # Generated quality of life dataset
+│
+├── multiple_logistic/
+│   ├── logistic.qmd                     # Quarto analysis document
+│   ├── logistic.html                    # Rendered HTML report
+│   ├── references.bib                   # Bibliography file
+│   ├── styles.css                       # HTML styling file
+│   ├── generate_data/                   # Data generation subfolder
+│   │   ├── logistic_generatedata.R      # R script for data simulation
+│   │   └── data_logistic_regression.csv # Generated depression dataset
+│
+├── README.md                            # This file
+└── LICENSE                              # MIT License
+```
 
 ---
 
@@ -85,36 +113,6 @@ The rendered reports have been published to USM Posit Connect for easy access:
   https://posit-connect.kk.usm.my/content/6f3c7710-f751-495d-baf4-80ec79ab0cc1
 
 ---
-
-## Repository Structure
-
-The repository is organised into **two self-contained analysis folders**, allowing each analysis to be run independently.
-
-```
-├── multiple_linear/
-│   ├── linear.qmd                      # Quarto analysis document
-│   ├── linear.html                     # Rendered HTML report
-│   ├── references.bib                   # Bibliography file
-│   ├── styles.css                       # HTML styling file
-│   ├── generate_data/                   # Data generation subfolder
-│   │   ├── linear_generatedata.R        # R script for data simulation
-│   │   └── qol_data.csv                 # Generated quality of life dataset
-│
-├── multiple_logistic/
-│   ├── logistic.qmd                     # Quarto analysis document
-│   ├── logistic.html                    # Rendered HTML report
-│   ├── references.bib                   # Bibliography file
-│   ├── styles.css                       # HTML styling file
-│   ├── generate_data/                   # Data generation subfolder
-│   │   ├── logistic_generatedata.R      # R script for data simulation
-│   │   └── data_logistic_regression.csv # Generated depression dataset
-│
-├── README.md                            # This file
-└── LICENSE                              # MIT License
-```
-
----
-
 ## Prerequisites
 
 To reproduce this analysis, you will need:

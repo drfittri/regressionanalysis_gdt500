@@ -91,7 +91,7 @@ The rendered reports have been published to USM Posit Connect for easy access:
 The repository is organised into **two self-contained analysis folders**, allowing each analysis to be run independently.
 
 ```
-├── Assignment_Linear Regression/
+├── multiple_linear/
 │   ├── linear.qmd                      # Quarto analysis document
 │   ├── linear.html                     # Rendered HTML report
 │   ├── references.bib                   # Bibliography file
@@ -100,7 +100,7 @@ The repository is organised into **two self-contained analysis folders**, allowi
 │   │   ├── linear_generatedata.R        # R script for data simulation
 │   │   └── qol_data.csv                 # Generated quality of life dataset
 │
-├── Logistic/
+├── multiple_logistic/
 │   ├── logistic.qmd                     # Quarto analysis document
 │   ├── logistic.html                    # Rendered HTML report
 │   ├── references.bib                   # Bibliography file

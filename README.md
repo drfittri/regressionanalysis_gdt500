@@ -149,13 +149,11 @@ Both analyses use the following R packages:
 
 Each analysis folder is self-contained and can be reproduced independently:
 
-1. **Navigate to the analysis folder:**
-   ```bash
-   cd "Assignment_Linear Regression"  # or cd Logistic
-   ```
+1. **Download the analysis folders:**
+   - Open the .qmd files using Rstudio or IDE of your choice
+   
 
-2. **Install required R packages:**
-   Open R or RStudio and run:
+3. **Install required R packages:**
    ```R
    install.packages(c(
      "tidyverse", "dplyr", "modelr", "tibble",
@@ -168,12 +166,12 @@ Each analysis folder is self-contained and can be reproduced independently:
    ```
 
 
-3. **Render the Quarto document:**
+4. **Render the Quarto document:**
    ```bash
    quarto render linear.qmd  # or logistic.qmd
    ```
 
-4. **View the output:**
+5. **View the output:**
    - The rendered HTML report will be generated in the same folder
    - Open `linear.html` or `logistic.html` in your browser
 
@@ -197,8 +195,6 @@ For questions or clarifications regarding this analysis:
 
 - **Primary Contact:** MOHD FITTRI FAHMI BIN FAUZI
 - **Email:** fittri.fahmi@gmail.com
-- **Course Instructor:** Professor Kamarul Imran Musa
-- **Institution:** Universiti Sains Malaysia (USM)
 
 ---
 
@@ -220,7 +216,7 @@ This repository contains academic work submitted for the GDT500 Multivariable An
 
 ## Version History
 
-- **v1.0.0 (2024-06-01):** Initial release with complete linear and logistic regression analyses.
+- **v1.0.0 (2024-01-04):** Initial release with complete linear and logistic regression analyses.
 ---
 
 ## License
